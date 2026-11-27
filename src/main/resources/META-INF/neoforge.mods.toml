@@ -1,0 +1,33 @@
+modLoader = "javafml"
+loaderVersion = "[1,)"
+license = "${license}"
+issueTrackerURL = "https://github.com/Cubo1ndev/create-category-chest/issues"
+
+[[mods]]
+modId = "${id}"
+version = "${version}"
+displayName = "${name}"
+authors = "${authors}"
+description = '''${description}'''
+displayURL = "https://github.com/Cubo1ndev/create-category-chest"
+
+[[dependencies.${id}]]
+modId = "neoforge"
+type = "required"
+versionRange = "[21.1,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.${id}]]
+modId = "minecraft"
+type = "required"
+versionRange = "[${minecraft}]"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.${id}]]
+modId = "create"
+type = "required"
+versionRange = "[6.0,6.1)"
+ordering = "AFTER"
+side = "BOTH"

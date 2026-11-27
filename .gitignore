@@ -1,0 +1,10 @@
+build/
+.gradle/
+run/
+.idea/
+*.iml
+.vscode/
+build.log
+run-server.log
+.superpowers/
+run-client.log
